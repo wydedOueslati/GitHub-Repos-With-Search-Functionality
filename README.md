@@ -1,13 +1,15 @@
 # GitHub with Search Repositories Functionality
 
-An application used to display the repositories of a GitHub user and allow him to filter through the repositories by name using a search bar, , built with React, React Hooks, JavaScript, and CSS.
+An application used to display the repositories of a GitHub user and allow him to filter through the repositories by name using a search bar, built with React, React Hooks, React-Bootsrtap, JavaScript, and CSS.
 
 ## Installation and Setup Instructions
 
 Clone down this repository. You will need node and npm installed globally on your machine.
 
 Clone repository:
-git clone https://github.com/wydedOueslati/GitHub-Repos-With-Search-Functionality.git
+```bash
+git clone https://github.com/wydedOueslati/itHub-Repos-With-Search-Functionality.git
+```
 
 Installation:
 ```bash
