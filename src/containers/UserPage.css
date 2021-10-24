@@ -1,0 +1,23 @@
+.result{
+    color: rgb(82, 79, 79);
+    font-size: 1em;
+    
+}
+.bold{
+    font-weight: bold;
+}
+.input{
+    border:none;
+    background-color: transparent;
+  }
+  
+.input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+      outline: none;
+  }
+  
+.icon{
+    color: gray;
+  }
