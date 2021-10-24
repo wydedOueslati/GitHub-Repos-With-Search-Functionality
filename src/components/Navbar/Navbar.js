@@ -17,17 +17,17 @@ import "./Navbar.css";
 */
 
 const Navbar = ({ user }) => (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-1">
     <img
       src={user.avatar_url}
       width="50"
       height="50"
-      className="me-4 ms-3 avatar"
+      className="me-2 ms-2 avatar"
       alt="user"
     />
     <h3 style={{ color: "white"  }}>{user.name}</h3>
-    <a className="ms-auto d-flex align-items-center" href="/">
-  Search Other User
+    <a type="button" className=" btn btn-light ms-auto d-flex align-items-center" href="/">
+  Search User
     </a>    
   </nav>
 );
